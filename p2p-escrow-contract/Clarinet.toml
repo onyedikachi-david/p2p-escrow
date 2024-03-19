@@ -1,0 +1,22 @@
+[project]
+name = "p2p-escrow-contract"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+[contracts.p2p]
+path = "contracts/p2p.clar"
+depends_on = []
+
+[repl]
+costs_version = 2
+parser_version = 2
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
