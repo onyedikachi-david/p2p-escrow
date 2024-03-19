@@ -2,3 +2,4 @@ clarinet.fish
 settings/Mainnet.toml
 settings/Testnet.toml
 history.txt
+.vercel
