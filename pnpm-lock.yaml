@@ -11,6 +11,9 @@ dependencies:
   '@stacks/connect-react':
     specifier: ^22.2.0
     version: 22.4.2(react-dom@18.2.0)(react@18.2.0)
+  '@stacks/network':
+    specifier: ^6.11.3
+    version: 6.11.3
   next:
     specifier: 13.5.6
     version: 13.5.6(react-dom@18.2.0)(react@18.2.0)
