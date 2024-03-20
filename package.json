@@ -12,6 +12,7 @@
     "@stacks/connect": "^7.4.0",
     "@stacks/connect-react": "^22.2.0",
     "@stacks/network": "^6.11.3",
+    "@stacks/transactions": "^6.12.1",
     "next": "13.5.6",
     "react": "^18",
     "react-dom": "^18"
