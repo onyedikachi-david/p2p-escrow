@@ -2,6 +2,10 @@
 
 This Clarity smart contract facilitates a peer-to-peer (P2P) escrow system for exchanging Stacks (STX) tokens for USD. The contract ensures a secure and trustless environment for users and merchants to transact. It leverages the Clarity programming language, designed for predictability and security in smart contract development.
 
+## Smart contract details
+
+Contract address (testnet): ST1Z31FE9TDHJBGCFNH5DRRFE8DZK5D10HDQ114ZW.p2p
+
 ## Features
 
 - **Exchange Request**: Users can request an exchange of STX for USD by specifying the amount of STX and their bank account details.
@@ -79,5 +83,4 @@ Contributions are welcome! Please submit a pull request or open an issue on the 
 
 ---
 
-This README provides a comprehensive overview of the P2P Escrow Contract for STX-USD Exchange. 
-
+This README provides a comprehensive overview of the P2P Escrow Contract for STX-USD Exchange.
