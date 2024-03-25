@@ -12,10 +12,10 @@ export default function Component() {
           <span className="sr-only">EscowX </span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="merchant/register">
             Register
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="exchange">
             Exchange
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">

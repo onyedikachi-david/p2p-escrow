@@ -59,7 +59,7 @@
 )
 
 ;; Function to request an exchange
-(define-public (request-exchange (amount-stx uint) (account-number (string-ascii 20)) (account-name (string-ascii 50)) (bank-name (string-ascii 50)))
+(define-public (request-exchange (amount-stx uint) (account-number (string-ascii 20)) (account-name (string-ascii 50)) (bank-name (string-ascii 50)) (email (string-utf8 30)))
   (let ((request-id (+ u1 (var-get request-id-count))))
     ;; Attempt to transfer the specified amount of STX to the contract
     (match (stx-transfer? amount-stx tx-sender (as-contract tx-sender))
@@ -71,7 +71,7 @@
             { requester: tx-sender, amount-stx: amount-stx, bank-account: { number: account-number, name: account-name, bank-name: bank-name } })
           ;; Increment and store the next request ID
           (var-set request-id-count request-id)
-          (print "Exchange request created")
+          (print {action: "Exchange request created", client-email: email})
           (ok request-id)
         )
       error
